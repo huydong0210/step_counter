@@ -21,13 +21,29 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.1.0.0
 Dialog DLL:      TCM.DLL V1.56.4.0
  
 <h2>Project:</h2>
-D:\programing\embedded\Nhap_Mon_Nhung\STEP_COUNTER_FINAL_VERSION\step_counter_final_version.uvprojx
+D:\STEP_COUNTER_FINAL_VERSION\step_counter_final_version.uvprojx
 Project File Date:  06/12/2023
 
 <h2>Output:</h2>
 *** Using Compiler 'V6.19', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
-Build target 'step_counter_final_version'
+Rebuild target 'step_counter_final_version'
+compiling delay.c...
+compiling led.c...
+compiling interrupt.c...
+compiling misc.c...
+compiling i2c_mpu6050.c...
+compiling stm32f10x_gpio.c...
+compiling Systick.c...
+compiling stm32f10x_exti.c...
 compiling main.c...
+compiling i2c.c...
+compiling GPIO_STM32F10x.c...
+compiling stm32f10x_rcc.c...
+compiling lcd16x2.c...
+compiling stm32f10x_i2c.c...
+assembling startup_stm32f10x_ld.s...
+compiling system_stm32f10x.c...
+compiling stm32f10x_tim.c...
 linking...
 Program Size: Code=13220 RO-data=476 RW-data=8 ZI-data=1736  
 ".\Objects\step_counter_final_version.axf" - 0 Error(s), 0 Warning(s).
@@ -71,8 +87,8 @@ Package Vendor: Keil
 
    * Component: Keil::Device:Startup:1.0.0
       Source file:   Device/Source/system_stm32f10x.c
-      Include file:  RTE_Driver/Config/RTE_Device.h
       Source file:   Device/Source/ARM/STM32F1xx_OPT.s
+      Include file:  RTE_Driver/Config/RTE_Device.h
       Source file:   Device/Source/ARM/startup_stm32f10x_ld.s
 
    * Component: Keil::Device:StdPeriph Drivers:EXTI:3.6.0
@@ -80,15 +96,15 @@ Package Vendor: Keil
       Include file:  Device/StdPeriph_Driver/inc/stm32f10x_exti.h
 
    * Component: Keil::Device:StdPeriph Drivers:Framework:3.6.0
-      Source file:   Device/StdPeriph_Driver/templates/stm32f10x_it.c
-      Source file:   Device/StdPeriph_Driver/src/misc.c
-      Include file:  Device/StdPeriph_Driver/templates/stm32f10x_it.h
-      Source file:   Device/StdPeriph_Driver/templates/stm32f10x_conf.h
       Include file:  Device/StdPeriph_Driver/inc/misc.h
+      Source file:   Device/StdPeriph_Driver/templates/stm32f10x_it.c
+      Source file:   Device/StdPeriph_Driver/templates/stm32f10x_conf.h
+      Include file:  Device/StdPeriph_Driver/templates/stm32f10x_it.h
+      Source file:   Device/StdPeriph_Driver/src/misc.c
 
    * Component: Keil::Device:StdPeriph Drivers:GPIO:3.6.0
-      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_gpio.h
       Source file:   Device/StdPeriph_Driver/src/stm32f10x_gpio.c
+      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_gpio.h
 
    * Component: Keil::Device:StdPeriph Drivers:I2C:3.6.0
       Include file:  Device/StdPeriph_Driver/inc/stm32f10x_i2c.h
@@ -101,7 +117,7 @@ Package Vendor: Keil
    * Component: Keil::Device:StdPeriph Drivers:TIM:3.6.0
       Include file:  Device/StdPeriph_Driver/inc/stm32f10x_tim.h
       Source file:   Device/StdPeriph_Driver/src/stm32f10x_tim.c
-Build Time Elapsed:  00:00:00
+Build Time Elapsed:  00:00:01
 </pre>
 </body>
 </html>
